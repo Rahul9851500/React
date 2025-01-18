@@ -1,14 +1,15 @@
-
+/* Main container */
 .main {
     height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f4f4f4; 
     text-align: center; 
+    padding-right: 0px;
+    padding-left: 100px;
 }
 
-
+/* Text container */
 .text {
     display: flex;
     flex-direction: column;
@@ -17,13 +18,11 @@
     text-align: center; 
 }
 
-
 .text h1 {
     font-size: 2.5rem;
     margin: 15px 0 10px; 
     color: #333; 
 }
-
 
 .text p {
     font-size: 1.2rem;
@@ -31,14 +30,13 @@
     color: #555; 
 }
 
-
+/* Social icons */
 .icons {
     display: flex;
     gap: 20px; 
     justify-content: center;
     margin-top: 20px;
 }
-
 
 .icon {
     font-size: 2rem;
@@ -47,8 +45,68 @@
     transition: transform 0.3s ease, color 0.3s ease; 
 }
 
-
 .icon:hover {
     transform: scale(1.2); 
     color: #0073b1; 
+}
+
+/* Buttons */
+.buttons button {
+    background-color: #e93f0b; 
+    color: white; 
+    padding: 10px 20px; 
+    margin: 10px; 
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Text size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth transition */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Button hover effect */
+.buttons button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+.buttons button:focus {
+    outline: none; /* Remove focus outline */
+    box-shadow: 0 0 10px #4CAF50; /* Green glow on focus */
+}
+
+/* Main content container */
+.main_content {
+    display: flex; /* Align text and image side by side */
+    justify-content: space-between; /* Move the image to the far right */
+    align-items: flex-start; /* Align items to the top */
+    gap: 20px; /* Add spacing between text and image */
+    position: relative; /* Set position for further adjustments */
+}
+
+/* Image container */
+.main_img {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    margin-top: -250px; /* Move the image slightly upward */
+    margin-left: 200px; /* Position the image further to the right */
+    margin-top: 50px;
+}
+
+/* Image styling */
+.main_img img {
+    width: 200px; /* Size of the image */
+    height: 200px; /* Match the height to width */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Maintain aspect ratio */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 3px solid #4CAF50; /* Optional border for styling */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Image hover effect */
+.main_img img:hover {
+    transform: scale(1.05); /* Slightly enlarge the image */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
 }
