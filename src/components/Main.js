@@ -12,16 +12,18 @@ const Main = () => {
                         <div className="text">
                             <p>Hello Everyone!</p>
                             <h1>I am Rahul</h1>
-                            <p>BCA Student - 202204100028</p>
+                            <p>BCA Student from Medhavi Skills University</p>
                             <div className="icons">
                                 <Twitter className="icon" />
                                 <Instagram className="icon" />
                                 <Facebook className="icon" />
                                 <LinkedIn className="icon" />
                             </div>
+                            <br></br>
                             <div className="buttons">
                                 <button>See Me</button>
                                 <button>Hire Me</button>
+                            
                             </div>
                         </div>
                         <div className="main_img">
