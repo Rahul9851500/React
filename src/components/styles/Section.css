@@ -72,3 +72,7 @@
         text-align: center; /* Center-align content on smaller screens */
     }
 }
+
+.section_content p :hover {
+    color: red;
+}

@@ -5,7 +5,7 @@ import amrit from './Assets/w.JPG';
 
 const Main = () => {
     return (
-        <body>
+        
             <div className="main">
                 <div className="main_container">
                     <div className="main_content">
@@ -32,7 +32,7 @@ const Main = () => {
                     </div>
                 </div>
             </div>
-        </body>
+        
     );
 };
 

@@ -13,7 +13,7 @@ const Section = () => {
                 <div className='section_content'>
                     <div className='content_box'>
                         <h1>Rahul Kumar</h1>
-                        <div className='option'>Rahul Kumar, a BCA student at Medhavi Skills University</div>
+                          <div className='option'>Rahul Kumar, a BCA student at Medhavi Skills University</div>
                         <div className='option'>JavaScript Development</div>
                         <div className='option'>Python</div>
                         <div className='option'>Cyber Security</div>
